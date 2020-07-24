@@ -203,7 +203,7 @@ int displayCombatLog(combat_log * c_log)
 	{
 		if(i<(c_log->monster.c_hp*14)/c_log->monster.hp)
 		{
-			printw("#");
+			printw("/");
 		}
 		else
 		{
